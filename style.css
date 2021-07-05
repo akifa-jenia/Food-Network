@@ -1,0 +1,18 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+  }
+  h1 {
+    font-size: 25px;
+  }
+  .orange {
+    color:coral ;
+  }
+  .link-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 12px 12px;
+    border-radius: 15px;
+    color: white;
+    font-weight: 100;
+  }
