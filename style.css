@@ -2,11 +2,60 @@ body {
     font-family: "Poppins", sans-serif;
     margin: 0;
   }
+
   h1 {
-    font-size: 25px;
+    font-size: 45px;
+    color: rgb(129, 125, 125);
+  }
+  h2{
+    font-size: 40px;
   }
   .orange {
     color:coral ;
+  }
+  section {
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .half-width {
+    width: 50%;
+    padding-left: 5%;
+  }
+  .half-width img {
+    width: 50%;
+  }
+  
+  .three-segment img{
+    border-radius: 15%;
+  width:80%;
+  padding-left: 20px;
+  }
+  .three-segment h2{
+    text-align: center;
+  }
+  .three-segment {
+    margin: 30px 40px;
+    width: 40%;
+  }
+
+ .three-segments{
+   margin : 5px 5px;
+   padding : 5px 5px;
+   width: 40%;
+   height:240 px;
+ }
+.three-segments p{
+  text-align: center;
+}
+.three-segments h2{
+  text-align: center;
+}
+.three-segments img{
+padding-left: 180px;
+}
+  .flexible-container {
+    display: flex;
+    margin :0;
   }
   .link-button {
     text-decoration: none;
@@ -16,3 +65,71 @@ body {
     color: white;
     font-weight: 100;
   }
+  .banners{
+    padding-left: 50px;
+    width : 100%;
+    margin : 0;
+  }
+  .login-added{
+    padding-left: 120px;
+  }
+.backgorund-img{
+  background-image: url(images/shapes/banner.png);
+}
+
+  .banner{
+    background-image: url(images/shapes/about-me.jpg);
+    background-repeat: no-repeat;
+    width : 100%;
+    margin : 0;
+  }
+  .recpie-area h1{
+    text-align:center ;
+    }
+    .recpie-item h2{
+      text-align:center ;
+      }
+  .recipe-item{
+    width : 40%;
+    margin-left:5%;
+    margin-right:5%;
+    padding-left: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px grey;
+  }
+
+  .recipe-middle h1{
+    text-align: center;
+  }
+  .recipe-middle p{
+    text-align: center;
+  }
+  footer p{
+    text-align: center;
+    color: white;
+  }
+  .social-media{
+    width : 88%;
+    margin-left:5%;
+    margin-right:5%;
+    padding-left: 20px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    box-shadow: 20px 20px 40px grey;
+  }
+
+  .footer-upper {
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 40px;
+    text-align: center;
+  }
+  
+  .footer-upper p{
+    text-align: center;
+  }
+  
+  
+  
